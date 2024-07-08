@@ -1,2 +1,2 @@
-# SCRIPTING
+# Scripting
 Het's Scripting Arena
