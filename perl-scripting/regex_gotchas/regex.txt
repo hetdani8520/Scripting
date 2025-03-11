@@ -1,0 +1,21 @@
+#####################################################################################
+#This file keeps track of important perl regex gotchas highlighted with examples.
+#Ref:- https://www.davetill.com/perlbook/
+#####################################################################################
+
+Write patterns that match the following:
+Q.1:- Five or more lowercase letters  (a-z)
+[\w]{5,}
+
+Q.2:- String of digits optionally containing a decimal point
+\d+\.?\d+ 
+#can we use backreference above??? - no we don't want the same string of digits after decimal point everytime
+
+Q.3:- Either the number 1 or the string one.
+(1|(one))
+
+Q.4:- Any letter followed by any vowel, followed by the same letter again (backreference metacharacter use-case)
+(\w+)[aeiou]\1
+
+Q.5:- One or more + characters
+(\+)+
