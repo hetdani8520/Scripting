@@ -1,0 +1,15 @@
+tenet
+het
+tenet
+palindrome
+tenet
+tenet
+tenet
+tenet
+tenet
+tenet
+tenet
+tenet
+\n
+done
+$

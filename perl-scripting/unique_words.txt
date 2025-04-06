@@ -1,0 +1,6 @@
+tenet
+het
+palindrome
+\n
+done
+$

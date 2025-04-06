@@ -8,6 +8,6 @@ my $read;
 
     $read = <STDIN>;
     print $read;
-    #if either 0 is entered or EOF is reached then break out from STDIN on STDOUT
+    #if either 0 is entered or EOF is reached then break out from STDIN
     last if $read eq "0";
     #push(@STDIN, $read);
