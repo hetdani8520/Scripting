@@ -22,15 +22,24 @@ while(<fh>){
     print fw "$_==>$words{$_}\n";
 }
 
-foreach my $key (keys %words){
-    if($words{$key} > $max_value){
-        $max_value = $words{$key};
-        $max_key = $key;
-    }
+#sort the words by their occurrence count (descending order) & take the top 5
+my @top_words = 
+    (sort { $words{$b} <=> $words{$a} } keys %words)[0..4];
+
+#foreach my $key (keys %words){
+    #if($words{$key} > $max_value){
+    #    $max_value = $words{$key};
+    #    $max_key = $key;
+    #}
+#}
+
+print "Top 5 most occurring words:\n";
+foreach my $word (@top_words) {
+    print "$word => $words{$word}\n";
 }
 
 #print highest occuring word from the file
-print "highest occuring word from the file is: $max_key\n";
+#print "highest occuring word from the file is: $max_key\n";
 
 close(fh);
 close(fw);
