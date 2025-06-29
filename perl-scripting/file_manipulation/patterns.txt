@@ -1,0 +1,17 @@
+UVM_INFO adder_scb.sv(93) @ 20: uvm_test_top.env.scb [adder_scb] PREDICTED_TRANSACTIONS=          2,MATCHES=          2,MISMATCHES=          0, NOTHING_TO_COMPARE_AGAINST=          0
+UVM_INFO adder_scb.sv(93) @ 20: uvm_test_top.env.scb [adder_scb] PREDICTED_TRANSACTIONS=          8,MATCHES=          2,MISMATCHES=          0, NOTHING_TO_COMPARE_AGAINST=          0
+UVM_INFO adder_scb.sv(93) @ 20: uvm_test_top.env.scb [adder_scb] PREDICTED_TRANSACTIONS=          5,MATCHES=          2,MISMATCHES=          3, NOTHING_TO_COMPARE_AGAINST=          0
+
+UVM_INFO adder_scb.sv(93) @ 20: uvm_test_top.env.scb [adder_scb] PREDICTED_TRANSACTIONS=          6,MATCHES=          2,MISMATCHES=          4, NOTHING_TO_COMPARE_AGAINST=          0
+
+UVM_INFO adder_scb.sv(93) @ 20: uvm_test_top.env.scb [adder_scb] PREDICTED_TRANSACTIONS=          7,MATCHES=          2,MISMATCHES=          5, NOTHING_TO_COMPARE_AGAINST=          0
+
+UVM_INFO adder_scb.sv(93) @ 20: uvm_test_top.env.scb [adder_scb] PREDICTED_TRANSACTIONS=          8,MATCHES=          2,MISMATCHES=          6, NOTHING_TO_COMPARE_AGAINST=          0
+
+UVM_INFO adder_scb.sv(93) @ 20: uvm_test_top.env.scb [adder_scb] PREDICTED_TRANSACTIONS=          9,MATCHES=          2,MISMATCHES=          7, NOTHING_TO_COMPARE_AGAINST=          0
+
+UVM_INFO adder_scb.sv(93) @ 20: uvm_test_top.env.scb [adder_scb] PREDICTED_TRANSACTIONS=          10,MATCHES=          2,MISMATCHES=          8, NOTHING_TO_COMPARE_AGAINST=          0
+
+UVM_INFO adder_scb.sv(93) @ 20: uvm_test_top.env.scb [adder_scb] PREDICTED_TRANSACTIONS=          11,MATCHES=          2,MISMATCHES=          9, NOTHING_TO_COMPARE_AGAINST=          0
+
+UVM_INFO adder_scb.sv(93) @ 20: uvm_test_top.env.scb [adder_scb] PREDICTED_TRANSACTIONS=          12,MATCHES=          2,MISMATCHES=          10, NOTHING_TO_COMPARE_AGAINST=          0
